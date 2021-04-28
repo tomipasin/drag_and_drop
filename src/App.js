@@ -6,17 +6,17 @@ const people = [
   {
     id: 'tomi',
     name: 'Tomi',
-    thumb: 'public/images/tomi.png'
+    thumb: '../public/images/tomi.png'
   },
   {
     id: 'renan',
     name: 'Renan',
-    thumb: 'public/images/renan.png'
+    thumb: '../public/images/renan.png'
   },
   {
     id: 'michelly',
     name: 'Michelly',
-    thumb: 'public/images/michelly.png'
+    thumb: '../public/images/michelly.png'
   },
 
 ]
