@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/drag_and_drop/static/css/main.922aa3c5.chunk.css",
-    "main.js": "/drag_and_drop/static/js/main.74cf115d.chunk.js",
-    "main.js.map": "/drag_and_drop/static/js/main.74cf115d.chunk.js.map",
+    "main.js": "/drag_and_drop/static/js/main.903e2491.chunk.js",
+    "main.js.map": "/drag_and_drop/static/js/main.903e2491.chunk.js.map",
     "runtime-main.js": "/drag_and_drop/static/js/runtime-main.ad12770f.js",
     "runtime-main.js.map": "/drag_and_drop/static/js/runtime-main.ad12770f.js.map",
     "static/js/2.7045e303.chunk.js": "/drag_and_drop/static/js/2.7045e303.chunk.js",
     "static/js/2.7045e303.chunk.js.map": "/drag_and_drop/static/js/2.7045e303.chunk.js.map",
     "index.html": "/drag_and_drop/index.html",
-    "precache-manifest.11dbb4d3b34485efbd7e163bdcf52295.js": "/drag_and_drop/precache-manifest.11dbb4d3b34485efbd7e163bdcf52295.js",
+    "precache-manifest.66dcad0917e9d367331b96591f142998.js": "/drag_and_drop/precache-manifest.66dcad0917e9d367331b96591f142998.js",
     "service-worker.js": "/drag_and_drop/service-worker.js",
     "static/css/main.922aa3c5.chunk.css.map": "/drag_and_drop/static/css/main.922aa3c5.chunk.css.map",
     "static/js/2.7045e303.chunk.js.LICENSE.txt": "/drag_and_drop/static/js/2.7045e303.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ad12770f.js",
     "static/js/2.7045e303.chunk.js",
     "static/css/main.922aa3c5.chunk.css",
-    "static/js/main.74cf115d.chunk.js"
+    "static/js/main.903e2491.chunk.js"
   ]
 }
