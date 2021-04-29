@@ -4,19 +4,19 @@ import './App.css';
 
 const people = [
   {
-    id: 'tomi',
+    id: '01',//ordem das respostas
     name: 'Tomi',
-    thumb: 'images/tomi.png'
+    thumb: '/images/tomi.png'
   },
   {
-    id: 'renan',
+    id: '02',
     name: 'Renan',
-    thumb: 'images/renan.png'
+    thumb: '/images/renan.png'
   },
   {
-    id: 'michelly',
+    id: '03',
     name: 'Michelly',
-    thumb: 'images/michelly.png'
+    thumb: '/images/michelly.png'
   },
 
 ]
@@ -30,20 +30,21 @@ function App() {
     const [reorderedItem] = items.splice(result.source.index, 1);
     items.splice(result.destination.index, 0, reorderedItem);
     updateCharacters(items);
-    console.log(items)
   }
 
   const correctAnswers = [
-    '<img src="/images/michelly.png" alt="Michelly Thumb">',
-    '<img src="/images/renan.png" alt="Renan Thumb">',
-    '<img src="/images/tomi.png" alt="Tomi Thumb">',
+    {id: '03'},
+    {id: '02'},
+    {id: '01'},
   ];
 
   function checkAnswer() {
     const li = document.querySelectorAll(".characters-thumb");
     let answers = new Array();
     li.forEach(function (text) {
-      answers.push(text.innerHTML);
+      answers.push({
+        id: text.innerHTML.substr(9,2)
+      });
     });
     if (JSON.stringify(correctAnswers) === JSON.stringify(answers)) {
       alert("Acertou!!!!!!!!");
@@ -69,7 +70,7 @@ function App() {
                       {(provided) => (
                         <li id="char" ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
                           <div className="characters-thumb">
-                            <img src={thumb} alt={`${name} Thumb`} />
+                            <img id={id} src={thumb} alt={`${name} Thumb`} />
                           </div>
                           <p>
                             {name}
