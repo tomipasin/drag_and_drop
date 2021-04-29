@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drag_and_drop/static/css/main.922aa3c5.chunk.css",
+    "main.css": "/drag_and_drop/static/css/main.8191b5c7.chunk.css",
     "main.js": "/drag_and_drop/static/js/main.ad7be095.chunk.js",
     "main.js.map": "/drag_and_drop/static/js/main.ad7be095.chunk.js.map",
     "runtime-main.js": "/drag_and_drop/static/js/runtime-main.ad12770f.js",
@@ -8,15 +8,15 @@
     "static/js/2.7045e303.chunk.js": "/drag_and_drop/static/js/2.7045e303.chunk.js",
     "static/js/2.7045e303.chunk.js.map": "/drag_and_drop/static/js/2.7045e303.chunk.js.map",
     "index.html": "/drag_and_drop/index.html",
-    "precache-manifest.c3fca4e1f5ff42e285f8cf529cac1a46.js": "/drag_and_drop/precache-manifest.c3fca4e1f5ff42e285f8cf529cac1a46.js",
+    "precache-manifest.3efd857fc587c1dacb00f13c403c7249.js": "/drag_and_drop/precache-manifest.3efd857fc587c1dacb00f13c403c7249.js",
     "service-worker.js": "/drag_and_drop/service-worker.js",
-    "static/css/main.922aa3c5.chunk.css.map": "/drag_and_drop/static/css/main.922aa3c5.chunk.css.map",
+    "static/css/main.8191b5c7.chunk.css.map": "/drag_and_drop/static/css/main.8191b5c7.chunk.css.map",
     "static/js/2.7045e303.chunk.js.LICENSE.txt": "/drag_and_drop/static/js/2.7045e303.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ad12770f.js",
     "static/js/2.7045e303.chunk.js",
-    "static/css/main.922aa3c5.chunk.css",
+    "static/css/main.8191b5c7.chunk.css",
     "static/js/main.ad7be095.chunk.js"
   ]
 }
