@@ -6,17 +6,17 @@ const people = [
   {
     id: '01',//ordem das respostas
     name: 'Tomi',
-    thumb: '/images/tomi.png'
+    thumb: 'images/tomi.png'
   },
   {
     id: '02',
     name: 'Renan',
-    thumb: '/images/renan.png'
+    thumb: 'images/renan.png'
   },
   {
     id: '03',
     name: 'Michelly',
-    thumb: '/images/michelly.png'
+    thumb: 'images/michelly.png'
   },
 
 ]
